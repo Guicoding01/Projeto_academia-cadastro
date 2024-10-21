@@ -17,9 +17,6 @@ main{
 	background-size:cover;
 	background-position: center;
 	transition: 1.3s;
-	
-
-	
 
 }
 main header{
@@ -35,54 +32,22 @@ main header span{
 	margin-top:30px;
 	cursor: pointer;
 	font-size: 20px;
-	transition: 2s;
+	transition: 1s;
 	text-transform: uppercase;
-	color: yellow;
 }
 
-main header input{
-	background-color:rgba(102, 102, 99 , 0.30);
-	height: 23px;
-	width: 130px;
-	margin-left: 15px;
-	border-radius: 10px;
-	border: 0;
-	padding-left: 15px;
-	text-transform: uppercase;
-	font-size: 16px;
-	color: white;
-	cursor: pointer;
-	
-
-}
-
-
-
-
-main:hover{
-	transition: 1.7s;
-	/*filter: brightness(50%);*/
-	
-}
 main header input:focus{
 	outline: 0;
 }
 main header span:hover{
-	color:rgba(255, 188,5 , 0.40);
-	transform: translateY(10px);
-}
-main header input[type="text"]:focus{
-	transition: 1.5s;
-	width: 180px;
-	background-color:rgba(102, 102, 99 , 0.65);
-	height: 30px;
-	
+	color:rgba(255, 188, 5, 0.61);
+	transform: translateY(4px);
 }
 
 form{
 
 	display: none;
-	margin: 100px auto;
+	margin: 90px auto;
 	border-radius: 20px;
 	height: 380px;
 	width: 300px;
@@ -117,28 +82,29 @@ form input[type="submit"]{
 	padding-right: 10px;
 }
 form span{
-	color: #ccc;
+	color: rgba(255, 188,5);
 	cursor: pointer;
 	display: inline-block;
-	margin-left: 260px;
+	margin-left: 240px;
+	margin-top: 10px;
 	font-size: 22px;
 
 }
 form input[type="text"]:focus{
 	outline: 0;
-	border: 1px solid red;
+	border: 1px solid rgba(255, 188,5);d;
 }
 
 /* alerta*/
 
 .alerta{
-	width: 30%;
-	margin: 50px auto;
-	height: 45px;
+	width: 23%;
+	margin: 0 auto;
+	height: 55px;
 	background-color: rgba(244, 7, 7,0.5);
 	border-radius: 7px;
 	text-align: center;
-	padding: 13px;
+	padding: 5px;
 	display: none;
 	position: relative;
 	bottom: 540px;
